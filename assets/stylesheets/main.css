@@ -61,6 +61,21 @@ table {
 	margin: 0 auto;
 }
 
+/* Clearfix */
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	clear: both;
+	*zoom: 1;
+}
+
 /* Typography */
 h1, h3, h4, h5, p {
 	margin-bottom: 22px;
@@ -81,4 +96,9 @@ h1, h3, h4, h5, p {
 /* Home */
 .hero {
 	padding: 22px 80px 66px 80px;
+}
+
+/* Primary header */
+.logo {
+	float: left;
 }
