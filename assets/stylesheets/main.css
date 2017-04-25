@@ -156,6 +156,7 @@ p a {
 }
 .hero p {
 	font-size: 24px;
+	font-weight: 100;
 }
 .teaser a:hover h3 {
 	color: #a9b2b9;
@@ -167,6 +168,9 @@ p a {
 	float: left;
 	font-size: 48px;
 	line-height: 44px;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: .5px;
 }
 .tagline {
 	margin: 66px 0 22px 0;
