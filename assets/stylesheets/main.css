@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 /* Debug outline */
-* {outline: 1px solid red;}
+/** {outline: 1px solid red;}*/
 /* Grid */
 *, *:before, *:after {
 	-moz-box-sizing: border-box;
