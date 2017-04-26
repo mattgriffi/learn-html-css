@@ -201,6 +201,12 @@ p a {
 .teaser a:hover h3 {
 	color: #a9b2b9;
 }
+.teaser img {
+	border-radius: 5px;
+	display: block;
+	max-width: 100%;
+	margin-bottom: 22px;
+}
 /* Primary header */
 .logo {
 	border-top: 4px solid #648880;
